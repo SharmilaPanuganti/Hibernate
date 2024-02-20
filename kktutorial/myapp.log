@@ -1,0 +1,4436 @@
+2024-Jan-04 21:35:36 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@10876a6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@71870da7)
+2024-Jan-04 21:35:36 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6dd91637) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@45792847)
+2024-Jan-04 21:35:37 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 21:35:37 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 21:35:37 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 21:35:37 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 21:35:37 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:35:37 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:35:37 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:35:37 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:40:57 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5754de72) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@31ee96f4)
+2024-Jan-04 21:40:57 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@320494b6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@652ab8d9)
+2024-Jan-04 21:40:58 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 21:40:58 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 21:40:58 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 21:40:58 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 21:40:58 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:40:58 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:40:58 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:40:58 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:42:33 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@675ffd1d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@56303475)
+2024-Jan-04 21:42:33 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@30506c0d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1dcca8d3)
+2024-Jan-04 21:42:34 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 21:42:34 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 21:42:34 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 21:42:34 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 21:42:34 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:42:34 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:42:34 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:42:34 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:50:02 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@14fc5d40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@51e0301d)
+2024-Jan-04 21:50:02 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@47d7bfb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@770b3be0)
+2024-Jan-04 21:50:03 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 21:50:03 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 21:50:03 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 21:50:03 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 21:50:03 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:50:03 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:50:03 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:50:03 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:51:49 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@706cb08) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4e25147a)
+2024-Jan-04 21:51:49 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6b68cb27) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@675ffd1d)
+2024-Jan-04 21:51:50 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 21:51:50 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 21:51:50 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 21:51:50 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 21:51:50 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:51:50 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 21:51:50 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 21:51:50 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:05:41 pm [main] ERROR cgg.tutorial.lockings.LoggerEx - Failed to savejava.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "cgg.tutorial.HibernateUtil.getfactory()" is null
+2024-Jan-04 22:06:18 pm [main] ERROR cgg.tutorial.lockings.LoggerEx - Failed to savejava.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "cgg.tutorial.HibernateUtil.getfactory()" is null
+2024-Jan-05 14:34:54 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@52a70627) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6124287a)
+2024-Jan-05 14:34:54 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@19569ebd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4632cfc)
+2024-Jan-05 14:35:13 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-05 14:35:13 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-05 14:35:13 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-05 14:35:14 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-05 14:35:15 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-05 14:35:16 pm [main] INFO  cgg.tutorial.lockings.SaveOrUpdateListenerEx - SAveor update is called
+2024-Jan-05 14:35:16 pm [main] ERROR cgg.tutorial.lockings.LoggerEx - Failed to savejava.lang.UnsupportedOperationException: Unimplemented method 'onSaveOrUpdate'
+2024-Jan-05 14:35:46 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@52a70627) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6124287a)
+2024-Jan-05 14:35:46 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@19569ebd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4632cfc)
+2024-Jan-05 14:35:48 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-05 14:35:48 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-05 14:35:48 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-05 14:35:48 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-05 14:35:49 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-05 14:35:49 pm [main] INFO  cgg.tutorial.lockings.SaveOrUpdateListenerEx - SAveor update is called
+2024-Jan-05 14:35:49 pm [main] ERROR cgg.tutorial.lockings.LoggerEx - Failed to savejava.lang.UnsupportedOperationException: Unimplemented method 'onSaveOrUpdate'
+2024-Jan-08 08:12:52 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@16a9a4f1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1f1cae23)
+2024-Jan-08 08:12:52 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7c455e96) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@985696)
+2024-Jan-08 08:12:56 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 08:12:56 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 08:12:56 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 08:12:56 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 08:12:57 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:57 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:57 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:57 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:57 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:57 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:12:58 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:58 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:58 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:58 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:12:58 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:16 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5631962) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@52a70627)
+2024-Jan-08 08:15:16 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6124287a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@19569ebd)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:18 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:18 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:18 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:18 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 08:15:18 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:30 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@16a9a4f1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1f1cae23)
+2024-Jan-08 10:18:30 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7c455e96) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@985696)
+2024-Jan-08 10:18:40 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 10:18:40 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 10:18:40 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 10:18:40 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:18:41 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:18:42 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:39:35 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@320494b6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@652ab8d9)
+2024-Jan-08 10:39:35 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@14fc5d40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@51e0301d)
+2024-Jan-08 10:39:36 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.center_wise_online_registered cascade
+2024-Jan-08 10:39:36 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       drop constraint if exists FKmpqmfbl0pvj51xmdsjr54924r
+2024-Jan-08 10:39:36 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 10:39:36 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 10:39:36 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 10:39:36 am [main] DEBUG org.hibernate.SQL - 
+    create table public.center_wise_online_registered (
+        capacity integer,
+        center_id integer,
+        map_id integer,
+        passid integer,
+        registered_students integer,
+        seq_id serial not null,
+        date timestamp(6),
+        inserted_time timestamp(6),
+        status varchar(20),
+        primary key (seq_id)
+    )
+2024-Jan-08 10:39:36 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        center_id integer,
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:39:37 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:39:37 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered (center_id)
+2024-Jan-08 10:39:37 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 10:39:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, center_id, date, inserted_time, map_id, passid, registered_students, status) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:39:37 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:39:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, center_id, date, inserted_time, map_id, passid, registered_students, status) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:39:37 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:39:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, center_id, date, inserted_time, map_id, passid, registered_students, status) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:39:37 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:39:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, center_id, date, inserted_time, map_id, passid, registered_students, status) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:39:37 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:39:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, center_id, date, inserted_time, map_id, passid, registered_students, status) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:39:37 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:41:33 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@320494b6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@652ab8d9)
+2024-Jan-08 10:41:33 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@14fc5d40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@51e0301d)
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.center_wise_online_registered cascade
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       drop constraint if exists FKmpqmfbl0pvj51xmdsjr54924r
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    create table public.center_wise_online_registered (
+        capacity integer,
+        center_id integer not null,
+        map_id integer,
+        passid integer,
+        registered_students integer,
+        seq_id integer,
+        date timestamp(6),
+        inserted_time timestamp(6),
+        status varchar(20),
+        primary key (center_id)
+    )
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        center_id integer,
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 10:41:35 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:41:35 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:41:35 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:41:35 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:41:35 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:41:35 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:43:17 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6dd91637) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@45792847)
+2024-Jan-08 10:43:17 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@706cb08) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4e25147a)
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.center_wise_online_registered cascade
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       drop constraint if exists FKmpqmfbl0pvj51xmdsjr54924r
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    create table public.center_wise_online_registered (
+        capacity integer,
+        center_id integer not null,
+        map_id integer,
+        passid integer,
+        registered_students integer,
+        seq_id integer,
+        date timestamp(6),
+        inserted_time timestamp(6),
+        status varchar(20),
+        primary key (center_id)
+    )
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        center_id integer,
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 10:43:19 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:43:19 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:43:19 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:43:19 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:43:19 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:43:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, seq_id, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:45:15 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@62e6a3ec) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5754de72)
+2024-Jan-08 10:45:15 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@31ee96f4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@320494b6)
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.center_wise_online_registered cascade
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       drop constraint if exists FKmpqmfbl0pvj51xmdsjr54924r
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    create table public.center_wise_online_registered (
+        capacity integer,
+        center_id integer not null,
+        map_id integer,
+        passid integer,
+        registered_students integer,
+        date timestamp(6),
+        inserted_time timestamp(6),
+        status varchar(20),
+        primary key (center_id)
+    )
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        center_id integer,
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered
+2024-Jan-08 10:45:16 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 10:45:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:45:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:45:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:45:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:45:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:45:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:45:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:45:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:45:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:45:17 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:55:09 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@16a9a4f1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1f1cae23)
+2024-Jan-08 10:55:09 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7c455e96) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@985696)
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.center_wise_online_registered cascade
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       drop constraint if exists FKmpqmfbl0pvj51xmdsjr54924r
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    create table public.center_wise_online_registered (
+        capacity integer,
+        center_id integer not null,
+        map_id integer,
+        passid integer,
+        registered_students integer,
+        date timestamp(6),
+        inserted_time timestamp(6),
+        status varchar(20),
+        primary key (center_id)
+    )
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        center_id integer,
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered
+2024-Jan-08 10:55:10 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 10:55:26 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 10:58:47 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@6b68cb27) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@675ffd1d)
+2024-Jan-08 10:58:47 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@56303475) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@30506c0d)
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.center_wise_online_registered cascade
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       drop constraint if exists FKmpqmfbl0pvj51xmdsjr54924r
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    create table public.center_wise_online_registered (
+        capacity integer,
+        center_id integer not null,
+        map_id integer,
+        passid integer,
+        registered_students integer,
+        date timestamp(6),
+        inserted_time timestamp(6),
+        status varchar(20),
+        primary key (center_id)
+    )
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        center_id integer,
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered
+2024-Jan-08 10:58:48 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 10:58:52 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 10:59:48 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@320494b6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@652ab8d9)
+2024-Jan-08 10:59:48 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@14fc5d40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@51e0301d)
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists public.center_wise_online_registered cascade
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       drop constraint if exists FKmpqmfbl0pvj51xmdsjr54924r
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       drop constraint if exists FKpntf4l97c6k7xobbd7qukld6c
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_buspass_det cascade
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    drop table if exists stud_details cascade
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    create table public.center_wise_online_registered (
+        capacity integer,
+        center_id integer not null,
+        map_id integer,
+        passid integer,
+        registered_students integer,
+        date timestamp(6),
+        inserted_time timestamp(6),
+        status varchar(20),
+        primary key (center_id)
+    )
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        center_id integer,
+        inst_dist_id integer not null,
+        inst_mandal_id integer not null,
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_cellno bigint not null,
+        bp_appl_id varchar(14) not null,
+        inst_univ_id varchar(25),
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_course_id varchar(100) not null,
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        inst_id varchar(200) not null,
+        student_resaddress varchar(250) not null,
+        student_qualification varchar(255),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_gender char(1),
+        student_dob timestamp(6),
+        student_ssc_htno bigint,
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        student_ssc_board varchar(25),
+        student_ssc_passtype varchar(25),
+        student_fname varchar(75),
+        student_name varchar(75),
+        student_aadharno varchar(100),
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 10:59:49 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:59:49 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:59:49 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:59:49 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:59:49 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 10:59:49 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        public.center_wise_online_registered
+        (capacity, date, inserted_time, map_id, passid, registered_students, status, center_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:00:10 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@19569ebd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4632cfc)
+2024-Jan-08 11:00:10 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6e1f8469) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2e380628)
+2024-Jan-08 11:02:33 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5631962) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@52a70627)
+2024-Jan-08 11:02:33 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6124287a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@19569ebd)
+2024-Jan-08 11:02:34 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        bp_appl_id varchar(14) not null,
+        inst_dist_id integer not null,
+        inst_id varchar(200) not null,
+        inst_mandal_id integer not null,
+        inst_univ_id varchar(25),
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_cellno bigint not null,
+        student_course_id varchar(100) not null,
+        student_qualification varchar(255),
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_resaddress varchar(250) not null,
+        center_id integer,
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 11:02:34 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_aadharno varchar(100),
+        student_dob timestamp(6),
+        student_fname varchar(75),
+        student_gender char(1),
+        student_name varchar(75),
+        student_ssc_board varchar(25),
+        student_ssc_htno bigint,
+        student_ssc_passtype varchar(25),
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 11:02:34 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered
+2024-Jan-08 11:02:34 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 11:02:40 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:03:51 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@19569ebd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4632cfc)
+2024-Jan-08 11:03:51 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6e1f8469) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2e380628)
+2024-Jan-08 11:04:05 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:04:05 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:05:12 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@16a9a4f1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1f1cae23)
+2024-Jan-08 11:05:13 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7c455e96) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@985696)
+2024-Jan-08 11:05:23 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:05:23 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:05:45 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@16a9a4f1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1f1cae23)
+2024-Jan-08 11:05:45 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7c455e96) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@985696)
+2024-Jan-08 11:05:52 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:05:52 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:07:56 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@985696) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5bcde458)
+2024-Jan-08 11:07:56 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@215a34b4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@77bd7fe7)
+2024-Jan-08 11:08:01 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:08:01 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:10:57 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@10876a6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@71870da7)
+2024-Jan-08 11:10:57 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6dd91637) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@45792847)
+2024-Jan-08 11:11:01 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:11:01 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:15:52 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@19569ebd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4632cfc)
+2024-Jan-08 11:15:52 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6e1f8469) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2e380628)
+2024-Jan-08 11:15:56 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:15:57 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:02 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:02 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:05 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:05 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:07 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:07 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:09 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:09 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:26 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:26 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:31 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:31 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:55 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:55 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:57 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:57 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:16:59 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:16:59 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:00 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:00 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:01 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:01 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:02 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:02 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:04 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:04 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:05 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:05 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:06 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:06 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:07 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:07 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:08 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:08 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:09 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:09 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:17:10 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:17:10 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:22:05 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@10876a6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@71870da7)
+2024-Jan-08 11:22:05 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6dd91637) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@45792847)
+2024-Jan-08 11:22:10 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:10 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:22:10 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:10 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:22:24 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:24 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:22:24 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:24 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:22:25 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:25 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:22:25 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:25 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:22:26 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:26 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:22:27 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:27 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:22:28 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:28 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:22:28 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:22:28 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:22:28 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:23:49 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@16a9a4f1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1f1cae23)
+2024-Jan-08 11:23:50 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7c455e96) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@985696)
+2024-Jan-08 11:23:53 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:23:53 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:23:53 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:23:53 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:23:55 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:23:55 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:23:55 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:23:55 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:17 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:17 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:24:17 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:17 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:20 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:20 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:24:20 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:20 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:21 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:21 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:24 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:25 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:24:25 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:25 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:26 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:26 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:24:26 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:26 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:27 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:27 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:24:27 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:27 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:28 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:28 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:24:28 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:28 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:24:29 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:29 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:24:30 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:02 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@19569ebd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4632cfc)
+2024-Jan-08 11:27:02 am [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6e1f8469) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2e380628)
+2024-Jan-08 11:27:03 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_buspass_det (
+        bp_appl_id varchar(14) not null,
+        inst_dist_id integer not null,
+        inst_id varchar(200) not null,
+        inst_mandal_id integer not null,
+        inst_univ_id varchar(25),
+        jrny_fromplace varchar(125) not null,
+        jrny_toplace varchar(125) not null,
+        jrny_via varchar(125) not null,
+        present_course_year varchar(25) not null,
+        student_admission_no varchar(25) not null,
+        student_cellno bigint not null,
+        student_course_id varchar(100) not null,
+        student_qualification varchar(255),
+        student_resadd_dist_id integer not null,
+        student_resadd_mandal_id integer not null,
+        student_resadd_village_id integer not null,
+        student_resaddress varchar(250) not null,
+        center_id integer,
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 11:27:03 am [main] DEBUG org.hibernate.SQL - 
+    create table stud_details (
+        student_aadharno varchar(100),
+        student_dob timestamp(6),
+        student_fname varchar(75),
+        student_gender char(1),
+        student_name varchar(75),
+        student_ssc_board varchar(25),
+        student_ssc_htno bigint,
+        student_ssc_passtype varchar(25),
+        student_ssc_passyear bigint,
+        bp_appl_id varchar(14) not null,
+        primary key (bp_appl_id)
+    )
+2024-Jan-08 11:27:03 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_buspass_det 
+       add constraint FKmpqmfbl0pvj51xmdsjr54924r 
+       foreign key (center_id) 
+       references public.center_wise_online_registered
+2024-Jan-08 11:27:03 am [main] DEBUG org.hibernate.SQL - 
+    alter table if exists stud_details 
+       add constraint FKpntf4l97c6k7xobbd7qukld6c 
+       foreign key (bp_appl_id) 
+       references stud_buspass_det
+2024-Jan-08 11:27:06 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:07 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:07 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:07 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:09 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:09 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:09 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:09 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:10 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:10 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:10 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:10 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:11 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:11 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:11 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:11 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:12 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:12 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:14 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:14 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:14 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:14 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:15 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:15 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:15 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:15 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:16 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:16 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:16 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:18 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:18 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:18 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:19 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:19 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:20 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:20 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:20 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:20 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:22 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:22 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:22 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:22 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:24 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:24 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:24 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:24 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:25 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:25 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:25 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:26 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:26 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:28 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:28 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:28 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:28 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:30 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:30 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:30 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:30 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:32 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:32 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:32 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:32 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:33 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:33 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:33 am [main] DEBUG org.hibernate.SQL - 
+    select
+        null,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:33 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    select
+        cwor1_0.center_id,
+        cwor1_0.capacity,
+        cwor1_0.date,
+        cwor1_0.inserted_time,
+        cwor1_0.map_id,
+        cwor1_0.passid,
+        cwor1_0.registered_students,
+        cwor1_0.status 
+    from
+        public.center_wise_online_registered cwor1_0 
+    where
+        cwor1_0.center_id=?
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    update
+        public.center_wise_online_registered 
+    set
+        capacity=?,
+        date=?,
+        inserted_time=?,
+        map_id=?,
+        passid=?,
+        registered_students=?,
+        status=? 
+    where
+        center_id=?
+2024-Jan-08 11:27:37 am [main] INFO  cgg.tutorial.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_buspass_det
+        (center_id, inst_dist_id, inst_id, inst_mandal_id, inst_univ_id, jrny_fromplace, jrny_toplace, jrny_via, present_course_year, student_admission_no, student_cellno, student_course_id, student_qualification, student_resadd_dist_id, student_resadd_mandal_id, student_resadd_village_id, student_resaddress, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-Jan-08 11:27:37 am [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        stud_details
+        (student_aadharno, student_dob, student_fname, student_gender, student_name, student_ssc_board, student_ssc_htno, student_ssc_passtype, student_ssc_passyear, bp_appl_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)

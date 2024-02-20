@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" >
+  <Appenders>
+    <!-- Console Appender -->
+    <Console name="consoleAppender" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
+    </Console>
+
+    <!-- File Appender -->
+    <File name="fileAppender" fileName="myapp.log">
+      <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n" />
+    </File>
+  </Appenders>
+
+  <Loggers>
+    <!-- Hibernate Logger -->
+    <Logger name="org.hibernate" level="info" additivity="false">
+      <AppenderRef ref="consoleAppender" />
+    </Logger>
+
+    <!-- SQL Logger -->
+    <Logger name="org.hibernate.SQL" level="debug" additivity="false">
+      <AppenderRef ref="consoleAppender" />
+      <AppenderRef ref="fileAppender" />
+    </Logger>
+
+    <!-- JDBC bind parameters Logger -->
+    <Logger name="org.hibernate.type.descriptor.sql" level="trace" additivity="false">
+      <AppenderRef ref="consoleAppender" />
+      <AppenderRef ref="fileAppender" />
+    </Logger>
+
+    <!-- Custom Package Logger -->
+    <Logger name="cgg.eventlisteners.lockings" level="debug" additivity="false">
+      <AppenderRef ref="consoleAppender" />
+      <AppenderRef ref="fileAppender" />
+    </Logger>
+
+    <!-- Root Logger -->
+    <Root level="error">
+      <AppenderRef ref="consoleAppender" />
+      <AppenderRef ref="fileAppender" />
+    </Root>
+  </Loggers>
+</Configuration>

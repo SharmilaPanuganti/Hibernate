@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+<property name="connection.driver_class">org.postgresql.Driver</property>
+<property name="connection.url">jdbc:postgresql://localhost:5432/test</property>
+<property name="connection.username">postgres</property>
+<property name="connection.password">Cgg@2023</property>
+<property name="hbm2ddl.auto">update</property>
+<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+<property name="show_sql">true</property>
+<property name="format_sql">true</property>
+<!-- <mapping class="cgg.tutorial.entities.Employee"/>
+<mapping class="cgg.tutorial.entities.Address2"/> -->
+<!-- <mapping class="cgg.tutorial.hql.Student"/>
+<mapping class="cgg.tutorial.hql.Address"/> -->
+<!-- <mapping class="cgg.tutorial.hql.BackupStudent"/>
+<mapping class="cgg.tutorial.hql.Department"/> -->
+<!-- <mapping class="cgg.tutorial.formula.Account"/> -->
+<!-- <mapping class="cgg.tutorial.inheritance.Person"/> -->
+<!-- <mapping class="cgg.tutorial.inheritance.Worker"/>
+<mapping class="cgg.tutorial.inheritance.Pupil"/>
+<mapping class="cgg.tutorial.nativeCollections.Person2"/>
+<mapping class="cgg.tutorial.nativeCollections.Phone"/>
+<mapping class="cgg.tutorial.nativeCollections.Call"/>
+<mapping class="cgg.tutorial.blobbinary.JPAStudent"/> -->
+<mapping class="cgg.tutorial.assignment.StudentBusPassDetails"/>
+<mapping class="cgg.tutorial.assignment.CentreWiseOnlineRegistered"/>
+</session-factory>
+</hibernate-configuration>

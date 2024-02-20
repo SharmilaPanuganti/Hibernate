@@ -1,0 +1,52 @@
+Components:
+sessionfactory
+session
+
+hddl properties:
+create: schema if present dropped and created
+update:updates
+validate:makes no change
+create-drop: create and drop when session factory closes
+
+Generate types:
+auto,
+identity
+sequence
+table
+
+
+StatelessSession
+ no support for 1st & 2nd  level cache
+no dirty check
+
+fetching strategies
+eager fetching
+lazy fetching
+
+scope for defining fetch
+static
+select
+join
+batch
+subselect
+dynamic(runtime)
+fetch profiles
+hql/jpql
+entity graphs
+
+
+<property name="connection.driver_class">org.postgresql.Driver</property>
+<property name="connection.url">jdbc:postgresql://localhost:5432/test</property>
+<property name="connection.username">postgres</property>
+<property name="connection.password">Cgg@2023</property>
+<property name="hbm2ddl.auto">update</property>
+<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+<property name="show_sql">true</property>
+<property name="format_sql">true</property>
+
+
+locking strategies:
+optimistic:
+assumes multiple transactions will not effect each other; wihtout locking;if conflicts rollback
+pessimistic:
+assumes concurrent transactions will conflict ;lock is required

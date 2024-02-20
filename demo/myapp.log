@@ -1,0 +1,540 @@
+2024-Jan-04 22:20:49 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@675ffd1d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@56303475)
+2024-Jan-04 22:20:49 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@30506c0d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1dcca8d3)
+2024-Jan-04 22:20:50 pm [main] ERROR cgg.eventlisteners.lockings.LoggerEx - Failed to savejava.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "cgg.eventlisteners.HibernateUtil.getfactory()" is null
+2024-Jan-04 22:22:35 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@14fc5d40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@51e0301d)
+2024-Jan-04 22:22:35 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@47d7bfb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@770b3be0)
+2024-Jan-04 22:22:35 pm [main] ERROR cgg.eventlisteners.lockings.LoggerEx - Failed to savejava.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "cgg.eventlisteners.HibernateUtil.getfactory()" is null
+2024-Jan-04 22:28:29 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@14fc5d40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@51e0301d)
+2024-Jan-04 22:28:29 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@47d7bfb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@770b3be0)
+2024-Jan-04 22:28:29 pm [main] ERROR cgg.eventlisteners.lockings.LoggerEx - Failed to savejava.lang.NullPointerException: Cannot invoke "org.hibernate.SessionFactory.openSession()" because the return value of "cgg.eventlisteners.HibernateUtil.getfactory()" is null
+2024-Jan-04 22:29:46 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@675ffd1d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@56303475)
+2024-Jan-04 22:29:46 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@30506c0d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1dcca8d3)
+2024-Jan-04 22:29:48 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 22:29:48 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 22:29:48 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 22:29:48 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 22:29:48 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:29:48 pm [main] ERROR cgg.eventlisteners.lockings.LoggerEx - Failed to savejava.lang.UnsupportedOperationException: Unimplemented method 'onSaveOrUpdate'
+2024-Jan-04 22:31:44 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@706cb08) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@4e25147a)
+2024-Jan-04 22:31:44 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6b68cb27) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@675ffd1d)
+2024-Jan-04 22:31:45 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 22:31:45 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 22:31:45 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 22:31:45 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 22:31:45 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:31:45 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:32:48 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@14fc5d40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@51e0301d)
+2024-Jan-04 22:32:48 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@47d7bfb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@770b3be0)
+2024-Jan-04 22:32:49 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 22:32:49 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 22:32:49 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 22:32:49 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 22:32:50 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:32:50 pm [main] INFO  cgg.eventlisteners.lockings.SaveOrUpdateListenerEx - Save or update is called
+2024-Jan-04 22:32:50 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:33:41 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3b6c624) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@1eaf1e62)
+2024-Jan-04 22:33:41 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@c81fd12) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@62e6a3ec)
+2024-Jan-04 22:33:42 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 22:33:42 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 22:33:42 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 22:33:42 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 22:33:42 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:33:42 pm [main] INFO  cgg.eventlisteners.lockings.SaveOrUpdateListenerEx - Save or update is called
+2024-Jan-04 22:33:42 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:35:12 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@31ee96f4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@320494b6)
+2024-Jan-04 22:35:12 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@652ab8d9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@14fc5d40)
+2024-Jan-04 22:35:13 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 22:35:13 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 22:35:13 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 22:35:14 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 22:35:14 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:35:14 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-04 22:35:14 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Person [id=1, name=sss, gender=male]
+2024-Jan-04 22:35:14 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:44:13 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@14fc5d40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@51e0301d)
+2024-Jan-04 22:44:13 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@47d7bfb3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@770b3be0)
+2024-Jan-04 22:44:14 pm [main] DEBUG org.hibernate.SQL - 
+    drop table if exists Person cascade
+2024-Jan-04 22:44:14 pm [main] DEBUG org.hibernate.SQL - 
+    drop sequence if exists Person_SEQ
+2024-Jan-04 22:44:14 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 22:44:14 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        version bigint not null,
+        gender varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+2024-Jan-04 22:44:14 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:44:14 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-04 22:44:14 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Person [id=1, name=sss, gender=male]
+2024-Jan-04 22:44:14 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:44:14 pm [main] INFO  cgg.eventlisteners.lockings.MergeEventListenerEx - Merge is called
+2024-Jan-04 22:44:14 pm [main] INFO  cgg.eventlisteners.lockings.MergeEventListenerEx - Person [id=1, name=sss, gender=female]
+2024-Jan-04 22:44:14 pm [main] DEBUG org.hibernate.SQL - 
+    update
+        Person 
+    set
+        gender=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2024-Jan-04 22:44:15 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.gender,
+        p1_0.name,
+        p1_0.version 
+    from
+        Person p1_0 
+    where
+        p1_0.id=?
+2024-Jan-04 22:44:15 pm [main] INFO  cgg.eventlisteners.lockings.RefreshEventListenerEx - onRefresh is called.
+2024-Jan-04 22:44:15 pm [main] INFO  cgg.eventlisteners.lockings.RefreshEventListenerEx - Person [id=1, name=sss, gender=female]
+2024-Jan-04 22:57:26 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@646811d6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@15fdd1f2)
+2024-Jan-04 22:57:26 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@cb0f763) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7573e12f)
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        gender varchar(255),
+        name varchar(255),
+        version bigint not null,
+        primary key (id)
+    )
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person_AUD (
+        id integer not null,
+        REV integer not null,
+        REVTYPE smallint,
+        gender varchar(255),
+        name varchar(255),
+        primary key (REV, id)
+    )
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    create table REVINFO (
+        REV integer not null,
+        REVTSTMP bigint,
+        primary key (REV)
+    )
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence REVINFO_SEQ start with 1 increment by 50
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    alter table if exists Person_AUD 
+       add constraint FKqbm2y5o4elhanxeq26reu73yd 
+       foreign key (REV) 
+       references REVINFO
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:57:28 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-04 22:57:28 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Person [id=1, name=sss, gender=male]
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:57:28 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-04 22:57:28 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Person [id=2, name=Sharmi, gender=female]
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('REVINFO_SEQ')
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person_AUD
+        (REVTYPE, gender, name, REV, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person_AUD
+        (REVTYPE, gender, name, REV, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.gender,
+        p1_0.name,
+        p1_0.version 
+    from
+        Person p1_0 
+    where
+        p1_0.id=?
+2024-Jan-04 22:57:28 pm [main] INFO  cgg.eventlisteners.lockings.MergeEventListenerEx - Merge is called
+2024-Jan-04 22:57:28 pm [main] INFO  cgg.eventlisteners.lockings.MergeEventListenerEx - Person [id=1, name=sss, gender=female]
+2024-Jan-04 22:57:28 pm [main] DEBUG org.hibernate.SQL - 
+    update
+        Person 
+    set
+        gender=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2024-Jan-04 22:57:29 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('REVINFO_SEQ')
+2024-Jan-04 22:57:29 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-04 22:57:29 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person_AUD
+        (REVTYPE, gender, name, REV, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-04 22:57:29 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.gender,
+        p1_0.name,
+        p1_0.version 
+    from
+        Person p1_0 
+    where
+        p1_0.id=?
+2024-Jan-04 22:57:29 pm [main] DEBUG org.hibernate.SQL - 
+    delete 
+    from
+        Person 
+    where
+        id=? 
+        and version=?
+2024-Jan-04 22:57:29 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-04 22:57:29 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person_AUD
+        (REVTYPE, gender, name, REV, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-04 22:58:54 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@646811d6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@15fdd1f2)
+2024-Jan-04 22:58:54 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@cb0f763) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7573e12f)
+2024-Jan-04 22:58:55 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person (
+        id integer not null,
+        gender varchar(255),
+        name varchar(255),
+        version bigint not null,
+        primary key (id)
+    )
+2024-Jan-04 22:58:55 pm [main] DEBUG org.hibernate.SQL - 
+    create table Person_AUD (
+        id integer not null,
+        REV integer not null,
+        REVTYPE smallint,
+        gender varchar(255),
+        name varchar(255),
+        primary key (REV, id)
+    )
+2024-Jan-04 22:58:55 pm [main] DEBUG org.hibernate.SQL - 
+    create table REVINFO (
+        REV integer not null,
+        REVTSTMP bigint,
+        primary key (REV)
+    )
+2024-Jan-04 22:58:55 pm [main] DEBUG org.hibernate.SQL - 
+    create sequence Person_SEQ start with 1 increment by 50
+2024-Jan-04 22:58:55 pm [main] DEBUG org.hibernate.SQL - 
+    alter table if exists Person_AUD 
+       add constraint FKqbm2y5o4elhanxeq26reu73yd 
+       foreign key (REV) 
+       references REVINFO
+2024-Jan-04 22:58:55 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:58:55 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-04 22:58:55 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Person [id=1, name=sss, gender=male]
+2024-Jan-04 22:58:55 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('Person_SEQ')
+2024-Jan-04 22:58:55 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Persist is called
+2024-Jan-04 22:58:55 pm [main] INFO  cgg.eventlisteners.lockings.PersistEventListenerEx - Person [id=2, name=Sharmi, gender=female]
+2024-Jan-04 22:58:55 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person
+        (gender, name, version, id) 
+    values
+        (?, ?, ?, ?)
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        nextval('REVINFO_SEQ')
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person_AUD
+        (REVTYPE, gender, name, REV, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person_AUD
+        (REVTYPE, gender, name, REV, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.gender,
+        p1_0.name,
+        p1_0.version 
+    from
+        Person p1_0 
+    where
+        p1_0.id=?
+2024-Jan-04 22:58:56 pm [main] INFO  cgg.eventlisteners.lockings.MergeEventListenerEx - Merge is called
+2024-Jan-04 22:58:56 pm [main] INFO  cgg.eventlisteners.lockings.MergeEventListenerEx - Person [id=1, name=sss, gender=female]
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    update
+        Person 
+    set
+        gender=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person_AUD
+        (REVTYPE, gender, name, REV, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        p1_0.id,
+        p1_0.gender,
+        p1_0.name,
+        p1_0.version 
+    from
+        Person p1_0 
+    where
+        p1_0.id=?
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    delete 
+    from
+        Person 
+    where
+        id=? 
+        and version=?
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        REVINFO
+        (REVTSTMP, REV) 
+    values
+        (?, ?)
+2024-Jan-04 22:58:56 pm [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        Person_AUD
+        (REVTYPE, gender, name, REV, id) 
+    values
+        (?, ?, ?, ?, ?)
+2024-Jan-04 23:13:56 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7573e12f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@51b1a8f6)
+2024-Jan-04 23:13:56 pm [main] DEBUG org.hibernate.type.descriptor.sql.spi.DdlTypeRegistry - addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2a389173) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@213860b8)
+2024-Jan-04 23:14:01 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.REV 
+    from
+        Person_AUD pa1_0,
+        REVINFO dre1_0 
+    where
+        pa1_0.id=? 
+        and pa1_0.REV=dre1_0.REV 
+    order by
+        pa1_0.REV
+2024-Jan-04 23:14:01 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.REV,
+        pa1_0.id,
+        pa1_0.REVTYPE,
+        pa1_0.gender,
+        pa1_0.name 
+    from
+        Person_AUD pa1_0 
+    where
+        pa1_0.REV=(
+            select
+                max(pa2_0.REV) 
+            from
+                Person_AUD pa2_0 
+            where
+                pa2_0.REV<=? 
+                and pa1_0.id=pa2_0.id
+        ) 
+        and pa1_0.REVTYPE<>? 
+        and pa1_0.id=?
+2024-Jan-04 23:14:01 pm [main] DEBUG org.hibernate.SQL - 
+    select
+        pa1_0.REV,
+        pa1_0.id,
+        pa1_0.REVTYPE,
+        pa1_0.gender,
+        pa1_0.name 
+    from
+        Person_AUD pa1_0 
+    where
+        pa1_0.REV=(
+            select
+                max(pa2_0.REV) 
+            from
+                Person_AUD pa2_0 
+            where
+                pa2_0.REV<=? 
+                and pa1_0.id=pa2_0.id
+        ) 
+        and pa1_0.REVTYPE<>? 
+        and pa1_0.id=?
